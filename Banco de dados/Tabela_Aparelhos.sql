@@ -1,7 +1,7 @@
 use techGym;
 create table aparelhos (
 id int primary key auto_increment,
-equipamentos varchar (30),
+equipamentos varchar (45),
 funcao varchar (15),
 treinos varchar (15)
 );
@@ -59,7 +59,7 @@ select * from aparelhos;
 select equipamentos from aparelhos;
 select funcao from aparelhos;
 select treinos from aparelhos;
-drop table aparelhos;
+
 
 
 

@@ -48,4 +48,3 @@ select email from clientes;
 select telefone from clientes;
 describe clientes;
 
-drop table clientes;
